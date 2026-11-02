@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "packetshad-autoplan_jd496"
+name = "packetshad-mixed_precision_overflow_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测自动驾驶规划控制专家·混合精度的溢出与下溢相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://packetshad.github.io"
-Repository = "https://github.com/packetshad/autoplan_jd496"
-Issues = "https://github.com/packetshad/autoplan_jd496/issues"
+Repository = "https://github.com/packetshad/mixed_precision_overflow_consistency_check"
+Issues = "https://github.com/packetshad/mixed_precision_overflow_consistency_check/issues"
 
 [project.scripts]
-autoplan_jd496 = "autoplan_jd496:main"
+mixed_precision_overflow_consistency_check = "mixed_precision_overflow_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["autoplan_jd496"]
+py-modules = ["mixed_precision_overflow_consistency_check"]
